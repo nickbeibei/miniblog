@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+
+
+body {
+    padding-left: 0;
+    margin-left: 0;
+    font:微软雅黑;
+    background-color:#f5f5f5;
+    background-repeat: repeat;
+   	font-size:14pt;
+    color:#666666;
+}
+
+a {
+	text-align: center;
+}
+
+nav {
+	
+	height: 68px;
+	width:1280px;
+	margin:0 auto;
+	background-color:#ffffff;
+	background-repeat: repeat;
+}
+
+#logo {
+	width:190px;
+	height:68px;
+}
+
+
+.navE {
+	height: 68px;
+    width: 100px;
+	margin:0 auto;
+	text-align:center;
+	line-height: 70px;
+}
+
+.navE a
+{
+	color:#666666;
+    text-decoration:none;
+}
+
+
+
+
+.logoimg{
+	height:46px;
+    width: 114px;
+	margin:10px auto;
+}
+
+.navE:hover{
+	background-color:#f28561;
+    background-repeat: repeat;
+    color:#ffffff;
+    
+}
+
+#functab li{
+	display:block;
+	float:left;
+}
+
+.user
+{
+	display:block;
+	float:right;
+	height:68px;
+	display:table;
+	text-align:center;
+}
+
+.line2
+{
+	clear:both;
+	height:68px;
+	width:1px;
+	padding:0px;
+	background-color:#D5D5D5;
+	/* overflow:hidden; */
+}
+
+.navB
+{
+	display:block;
+	float:right;
+	coler:#999999;
+	font-size:12pt;
+	display:table-cell;  
+	vertical-align:middle;
+	margin-right:20px;
+	margin-top:25px;
+	text-decoration:none;
+}
+
+
+
+.loginout:hover
+{
+	color:black;
+	cursor:pointer;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.netease.qa.meta.dao.BlogDao">
+
+    <sql id="allColumn">
+        blogid as blogId,
+        userid as userId,
+        title as title, 
+        abstract as blogAbstract,
+        publishTime as publishTime,
+        modifyTime as modifyTime
+    </sql>
+
+    <insert id="insert" parameterType="com.netease.qa.meta.Blog"  useGeneratedKeys="true" keyProperty="blogId">   
+        insert into blog(userid, title, abstract, publishTime, modifyTime) values(#{userId}, #{title}, #{blogAbstract}, #{publishTime}, #{modifyTime})
+    </insert>
+    
+    <update id="update" parameterType="com.netease.qa.meta.Blog">  
+        update blog set  title=#{title}, abstract=#{blogAbstract}, modifyTime=#{modifyTime} where blogid=#{blogId}
+    </update>
+    
+    <delete id="delete" parameterType="java.lang.Integer">    
+        delete from blog where blogid=#{blogId}
+    </delete>
+    
+    <select id="selectAllByUserId" parameterType="java.lang.Integer" resultType="com.netease.qa.meta.Blog">  
+        select 
+        <include refid="allColumn" />
+         from blog where userid=#{userId}
+    </select>
+    
+    <select id="findByBlogId" parameterType="java.lang.Integer" resultType="com.netease.qa.meta.Blog">
+        select * from blog where blogid=#{blogId}
+    </select>
+</mapper>
+
+

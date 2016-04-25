@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.netease.qa.meta.dao.BlogContentDao">
+    
+    <insert id="insert" parameterType="com.netease.qa.meta.BlogContent">   
+        insert into blogcontent(blogid, content, pictures) values(#{blogId}, #{content}, #{pictures})
+    </insert>
+    
+    <update id="update" parameterType="com.netease.qa.meta.BlogContent">  
+        update blogcontent set  blogid=#{blogId}, content=#{content}, pictures=#{pictures} where blogid=#{blogId}
+    </update>
+    
+    <delete id="delete" parameterType="java.lang.Integer">    
+        delete from blogcontent where blogid=#{blogId}
+    </delete>
+    
+    <select id="findByBlogId" parameterType="java.lang.Integer" resultType="com.netease.qa.meta.BlogContent">
+        select * from blogcontent where blogid=#{blogId}
+    </select>
+</mapper>

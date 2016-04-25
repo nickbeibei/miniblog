@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+
+.downloads{
+	height: 200px;
+	width:400px;
+	margin:40px auto;
+}
+
+.dl
+{
+	display:block;
+	float:left;
+	margin:10px;
+	
+}

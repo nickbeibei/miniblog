@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+body{
+	margin:0 auto;
+}
+
+.login
+{
+	width:352px;
+	height:378px;
+	margin:0 auto;
+	
+}
+.logo
+{
+	width:352px;
+	margin:0 auto;
+}
+
+.loginimg{
+	margin:40px 0 0 74px;
+	width:180px;
+	height:74px;
+}
+
+。txt{
+	width:352px;
+	height:44px;
+	background-color:#ffffff;
+    background-repeat: repeat;
+ 
+}
+
+.username
+{
+	margin:40px 0 0;
+	
+}
+
+.password
+{
+	margin:20px 0 0;
+	
+}
+
+.repassword
+{
+	margin:20px 0 0;
+	
+}
+
+.nickname
+{
+	margin:20px 0 0;
+	
+}
+
+.forget
+{
+	margin:0;
+	line-height:40px;
+	height:40px;
+	text-align:right;
+}
+
+
+div input
+{
+	color:#bbbbbb;
+	width:352px;
+	height:48px;
+	line-height:48px;
+	
+}
+
+.btn{
+	width:352px;
+	height:48px;
+	line-height:48px;
+	background-repeat: repeat;
+	border: 0 none;
+	text-align: center;
+	border-radius:4px;
+}
+
+.registerbtn{
+	margin:20px 0 0;
+	background-color:#f28561;
+    color:#ffffff;
+}
+
+.btn{
+	cursor:pointer;
+}
+
+.backlogin
+{
+	margin:10px 0 0;
+	text-align:right;
+	
+	
+}
+
+
+.back
+{
+	text-decoration:none;
+	color:#666666;
+}

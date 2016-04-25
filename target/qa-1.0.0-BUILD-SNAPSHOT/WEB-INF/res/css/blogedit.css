@@ -1,0 +1,57 @@
+#submitbtn {
+	background: #F28561;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 2px;
+	color: white;
+	text-align: center;
+}
+
+body {
+	padding: 0px 40px 20px 40px;
+	font-family: Microsoft YaHei;
+}
+
+.showbox {
+	background: #ddd;
+	padding: 20px 20px 30px 20px;
+	color: #666;
+}
+
+.blogcontainer {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 10px 20px;
+}
+
+.bloghead {
+	border-bottom: 1px solid #ddd;
+}
+
+.bread-blist {
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	color: #666666;
+	text-align: center;
+	text-decoration: none;
+}
+
+.b-title {
+	font-size: 25px;
+	color: #666666;
+}
+
+.blogfoot {
+	text-align: center;
+	border-top: 1px solid #ddd;
+}
+
+#blogc {
+	visibility: hidden;
+	display: none;
+}

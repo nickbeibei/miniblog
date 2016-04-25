@@ -1,0 +1,158 @@
+@CHARSET "UTF-8";
+
+.list{
+	clear:both;
+    width:1200px;
+    margin:0 auto;
+}
+
+
+.all
+{
+	margin-top: 20px;
+}
+
+.list-all{
+	
+	width:1240px;
+	margin:0 auto;
+	background-color:#ffffff;
+    background-repeat: repeat;
+    border-color:#e3e4e6;
+    border-width:1px;
+    border-style: solid;
+}
+
+.t-head
+{
+	width:1240px;
+	/* heigh:60px; */
+	
+}
+
+.head-name
+{
+	margin:20px;
+	font-size:14pt;
+	color:#666666;
+	heigh:60px;
+	width:200px;
+	float:left; 
+}
+
+
+.line1
+{
+	clear:both;
+	width:1200px;
+	height:1px;
+	
+	padding:0px;
+	background-color:#D5D5D5;
+	overflow:hidden;
+}
+
+
+.createbtn
+{
+	float:right; 
+	margin-top:11px;
+	margin-right:20px;
+	width:100px;
+	height:38px;
+	background-color:#f28561;
+	text-align:center;
+	line-height:38px;
+	color:#666666;
+	border-radius:4px;
+	
+}
+
+.createbtn:hover
+{
+	cursor:pointer;
+	
+}
+
+.trs
+{
+	height:78px;
+}
+
+.tds
+{
+	display:block;
+	
+}
+
+.titles
+{
+	float:left; 
+	height:78px;
+	
+}
+
+.opss
+{
+	height:78px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+
+.time{
+	margin-top:5px;
+	font-size:12pt;
+    color:#999999;
+}
+
+.ops
+{
+	float:right;
+	font-size:14pt;
+    color:#47b2aa;
+	margin-top: 25px;
+}
+
+.td
+{
+	display:block;
+	float:right;
+}
+
+.div-inline{
+	
+	display:block;
+	
+}
+
+.page
+{
+	margin:20px auto auto auto;
+	width:1240px;
+}
+
+.page1
+{
+	display:block;
+	float:right;
+	background-color:#ffffff;
+	color:black;
+	margin-left:10px;
+	border-color:#e3e4e6;
+    border-width:1px;
+    border-style: solid;
+}
+.delete:hover
+{
+	cursor:pointer;
+	color:black;
+}
+
+.edit:hover
+{
+	cursor:pointer;
+	color:black;
+}

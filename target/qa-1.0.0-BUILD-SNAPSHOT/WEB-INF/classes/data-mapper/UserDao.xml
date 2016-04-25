@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.netease.qa.meta.dao.UserDao">
+    
+    <insert id="insert" parameterType="com.netease.qa.meta.User" useGeneratedKeys="true" keyProperty="userId">    
+        insert into user(email, username, password, registerTime) values(#{email}, #{userName}, #{password}, #{registerTime})
+    </insert>
+    
+    <select id="findByUserId" parameterType="java.lang.Integer" resultType="com.netease.qa.meta.User"> 
+        select * from user where userid=#{userId}
+    </select>
+    
+    <select id="findByEmail" parameterType="String" resultType="com.netease.qa.meta.User"> 
+        select * from user where email=#{email}
+    </select>
+</mapper>
